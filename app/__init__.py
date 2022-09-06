@@ -13,7 +13,7 @@ def create_app(test_config=None):
   def hello():
     return 'hello world'
 
-# register routes
+# registered routes
   app.register_blueprint(home)
 
 
